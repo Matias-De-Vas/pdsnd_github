@@ -33,7 +33,7 @@ def get_filters():
     
     while True:
         try:
-            month = input('Please choose a month from january to june or type \'all\' for analyzing the whole period. ').lower()
+            month = input('Please choose a month or type \'all\' for analyzing the whole year. ').lower()
             if month in months:
                 print('Good choice!')
                 break
