@@ -22,7 +22,7 @@ def get_filters():
     
     while True:
         try:
-            city = input('Which city are you interested in? ').lower()
+            city = input('Please, choose Chicago, Washington or New York City. ').lower()
             if city in CITY_DATA:
                 print('Good choice!')
                 break
